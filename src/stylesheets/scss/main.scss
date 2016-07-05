@@ -1,0 +1,27 @@
+$primary-color: black;
+$secondary-color: #818a91;
+$padding-top-default: 15px;
+
+h2, h3 {
+	color: $primary-color;
+	text-align: center;
+}
+
+#mainContainer {
+	border-color: black; 
+	border: 2px solid black; 
+	border-radius: 25px;
+}
+
+#output {
+	background: #eee;
+	height: 250px;
+	overflow: auto;
+	white-space: pre-wrap;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#jsonOutput, #submit  {
+	padding-top: $padding-top-default;
+}
